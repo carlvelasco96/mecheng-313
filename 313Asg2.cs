@@ -9,6 +9,8 @@ class FiniteStateTable
     public string action;
   }
 
+  // 
+
   //set indexOfNextState of cell
   public void SetNextState(int stateIndex, int newIndexOfNextState)
   {
@@ -33,7 +35,41 @@ class FiniteStateTable
     return FST_X(state, 1).action;
   }
 
-	
+  private void ActionW()
+  {
+    Console.Write("Action W");
+  }
+
+  private void ActionX()
+  {
+    Console.Write("Action X");
+  }
+
+  private void ActionY()
+  {
+    Console.Write("Action Y");
+  }
+
+  private void ActionZ()
+  {
+    Console.Write("Action Z");
+  }
+
+  private void ActionJ()
+  {
+    Console.Write("Action J");
+  }
+
+  private void ActionK()
+  {
+    Console.Write("Action K");
+  }
+
+  private void ActionL()
+  {
+    Console.Write("Action L");
+  }
+
   static void Main()
   {
 
