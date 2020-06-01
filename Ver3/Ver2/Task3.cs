@@ -3,7 +3,7 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Threading;
 
-class Task3 : Task2
+class Task3 : Task2 //inherited from Task 2
 {
     private const int S0 = 0;
     private const int S1 = 1;
