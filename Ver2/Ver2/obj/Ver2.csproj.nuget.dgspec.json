@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Charlene\\Desktop\\Ver2\\Ver2\\Ver2.csproj": {}
+    "C:\\Users\\Charlene\\Documents\\GitHub\\mecheng-313\\Ver2\\Ver2\\Ver2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Charlene\\Desktop\\Ver2\\Ver2\\Ver2.csproj": {
+    "C:\\Users\\Charlene\\Documents\\GitHub\\mecheng-313\\Ver2\\Ver2\\Ver2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Charlene\\Desktop\\Ver2\\Ver2\\Ver2.csproj",
+        "projectUniqueName": "C:\\Users\\Charlene\\Documents\\GitHub\\mecheng-313\\Ver2\\Ver2\\Ver2.csproj",
         "projectName": "Ver2",
-        "projectPath": "C:\\Users\\Charlene\\Desktop\\Ver2\\Ver2\\Ver2.csproj",
+        "projectPath": "C:\\Users\\Charlene\\Documents\\GitHub\\mecheng-313\\Ver2\\Ver2\\Ver2.csproj",
         "packagesPath": "C:\\Users\\Charlene\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Charlene\\Desktop\\Ver2\\Ver2\\obj\\",
+        "outputPath": "C:\\Users\\Charlene\\Documents\\GitHub\\mecheng-313\\Ver2\\Ver2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Charlene\\AppData\\Roaming\\NuGet\\NuGet.Config",
