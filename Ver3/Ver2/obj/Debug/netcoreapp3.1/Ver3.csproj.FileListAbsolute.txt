@@ -24,3 +24,16 @@ C:\Users\Charlene\Documents\GitHub\mecheng-313\Ver3\Ver2\obj\Debug\netcoreapp3.1
 C:\Users\Charlene\Documents\GitHub\mecheng-313\Ver3\Ver2\obj\Debug\netcoreapp3.1\Ver3.dll
 C:\Users\Charlene\Documents\GitHub\mecheng-313\Ver3\Ver2\obj\Debug\netcoreapp3.1\Ver3.pdb
 C:\Users\Charlene\Documents\GitHub\mecheng-313\Ver3\Ver2\obj\Debug\netcoreapp3.1\Ver3.genruntimeconfig.cache
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver3\Ver2\obj\Debug\netcoreapp3.1\Ver3.csprojAssemblyReference.cache
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver3\Ver2\obj\Debug\netcoreapp3.1\Ver3.csproj.CoreCompileInputs.cache
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver3\Ver2\obj\Debug\netcoreapp3.1\Ver3.AssemblyInfoInputs.cache
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver3\Ver2\obj\Debug\netcoreapp3.1\Ver3.AssemblyInfo.cs
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver3\Ver2\obj\Debug\netcoreapp3.1\Ver3.dll
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver3\Ver2\obj\Debug\netcoreapp3.1\Ver3.pdb
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver3\Ver2\bin\Debug\netcoreapp3.1\Ver3.exe
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver3\Ver2\bin\Debug\netcoreapp3.1\Ver3.deps.json
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver3\Ver2\bin\Debug\netcoreapp3.1\Ver3.runtimeconfig.json
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver3\Ver2\bin\Debug\netcoreapp3.1\Ver3.runtimeconfig.dev.json
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver3\Ver2\bin\Debug\netcoreapp3.1\Ver3.dll
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver3\Ver2\bin\Debug\netcoreapp3.1\Ver3.pdb
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver3\Ver2\obj\Debug\netcoreapp3.1\Ver3.genruntimeconfig.cache

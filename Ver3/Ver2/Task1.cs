@@ -1,9 +1,16 @@
-﻿using System;
-using System.Runtime.Serialization;
+﻿// Task No.:    1
+// Author:      Charlene Lo     - clo261    - 465948311
+//              Carl Velasco    - cvel317   - 6693979
+// Group No.:   29
+// Description: This class implements the creation of a Finite State Table (FST).
+//              A struct called cell_FST was implemented to create the FST. The
+//              class includes key functions necessary for the creation and
+//              manipulation of the FST. These functions include: SetNextState(),
+//              SetActions(), GetNextState() and GetActions().
 
 class FiniteStateTable
 {
-    //define the indexes of the states and the events
+    // Define the indexes of the states and the events
     public const int S0 = 0;
     public const int S1 = 1;
     public const int S2 = 2;
@@ -15,7 +22,18 @@ class FiniteStateTable
     public const int E2 = 2;
 
     //initialise initial state
-    public int state = S0;
+    public int state;
+
+    // Contructor
+    // Set initial state as 0 if no initial state is provided
+    public FiniteStateTable() {
+        this.state = S0;
+    }
+    // Set initial state to the provided value
+    public FiniteStateTable(int stateInit)
+    {
+        this.state = stateInit;
+    }
 
     /// <summary>
     /// groups variables of a cell (indexOfNextState and 3 actions)
@@ -46,7 +64,7 @@ class FiniteStateTable
         }
         public cell_FST(int state, string act1, string act2, string act3) //overflow 2
         {
-            //if three actions to be executed
+            // if three actions to be executed
             nextState = state;
             action = act1;
             action2 = act2;
@@ -59,7 +77,7 @@ class FiniteStateTable
     /// 3x6 to accommodate task 3
     /// 3x3 tables only use left half of table. 
     /// </summary>
-    cell_FST[,] FST = {
+    cell_FST[,] FST = new cell_FST[3,6] {
     { new cell_FST(S0, "NoAction", "NoAction", "NoAction"), new cell_FST(S1, "NoAction", "NoAction", "NoAction"), new cell_FST(S2, "NoAction", "NoAction", "NoAction"), // E0
       new cell_FST(S3, "NoAction", "NoAction", "NoAction"), new cell_FST(S4, "NoAction", "NoAction", "NoAction"), new cell_FST(S5, "NoAction", "NoAction", "NoAction") },  // E0
     { new cell_FST(S0, "NoAction", "NoAction", "NoAction"), new cell_FST(S1, "NoAction", "NoAction", "NoAction"), new cell_FST(S2, "NoAction", "NoAction", "NoAction"), // E1
@@ -143,11 +161,5 @@ class FiniteStateTable
     public string GetActions(int S, int E)
     {
         return FST[E, S].action + "," + FST[E, S].action2 + "," + FST[E, S].action3;
-    }
-
-    static void Main()
-    {
-        //Finite State Machine Function goes here
-        //This is merely a class definition so there is none
     }
 }

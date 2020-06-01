@@ -46,59 +46,59 @@ class FiniteStateTable
 
     static cell_FST[,] FST_X = {
     // S0                           S1                              S2
-    { new cell_FST(S1, "NoAction", "NoAction", "NoAction"), new cell_FST(S0, "NoAction", "NoAction", "NoAction"), new cell_FST(S0, "NoAction", "NoAction", "NoAction") },     //E0
-    { new cell_FST(S0, "NoAction", "NoAction", "NoAction"), new cell_FST(S2, "NoAction", "NoAction", "NoAction"), new cell_FST(S2, "NoAction", "NoAction", "NoAction") },     //E1
-    { new cell_FST(S2, "NoAction", "NoAction", "NoAction"), new cell_FST(S1, "NoAction", "NoAction", "NoAction"), new cell_FST(S1, "NoAction", "NoAction", "NoAction") },     //E2
+    { new cell_FST(S0, "NoAction", "NoAction", "NoAction"), new cell_FST(S1, "NoAction", "NoAction", "NoAction"), new cell_FST(S2, "NoAction", "NoAction", "NoAction") },     //E0
+    { new cell_FST(S0, "NoAction", "NoAction", "NoAction"), new cell_FST(S1, "NoAction", "NoAction", "NoAction"), new cell_FST(S2, "NoAction", "NoAction", "NoAction") },     //E1
+    { new cell_FST(S0, "NoAction", "NoAction", "NoAction"), new cell_FST(S1, "NoAction", "NoAction", "NoAction"), new cell_FST(S2, "NoAction", "NoAction", "NoAction") },     //E2
     };
 
 
     //set indexOfNextState of cell
     public void SetNextState(int S, int E, int newIndexOfNextState)
     {
-        FST_X[S, E].nextState = newIndexOfNextState;
+        FST_X[E, S].nextState = newIndexOfNextState;
     }
 
     //set action of cell
     public void SetActions(int S, int E, string newAction)
     {
-        FST_X[S, E].action = newAction;
+        FST_X[E, S].action = newAction;
     }
 
     //set action of cell
     public void SetActions(int S, int E, string newAction, string newAction2)
     {
-        FST_X[S, E].action = newAction;
-        FST_X[S, E].action2 = newAction2;
+        FST_X[E, S].action = newAction;
+        FST_X[E, S].action2 = newAction2;
     }
 
     //set action of cell
     public void SetActions(int S, int E, string newAction, string newAction2, string newAction3)
     {
-        FST_X[S, E].action = newAction;
-        FST_X[S, E].action2 = newAction2;
-        FST_X[S, E].action3 = newAction3;
+        FST_X[E, S].action = newAction;
+        FST_X[E, S].action2 = newAction2;
+        FST_X[E, S].action3 = newAction3;
     }
 
     //return indexOfNextState of cell
-    public int GetNextState(int E, int S)
+    public int GetNextState(int S, int E)
     {
-        return FST_X[S, E].nextState;
+        return FST_X[E, S].nextState;
     }
 
     //return action of cell
-    public string GetActions(int E, int S, int actionNumber)
+    public string GetActions(int S, int E, int actionNumber)
     {
         if (actionNumber == 2)
         {
-            return FST_X[S, E].action2;
+            return FST_X[E, S].action2;
         }
         else if (actionNumber == 3)
         {
-            return FST_X[S, E].action3;
+            return FST_X[E, S].action3;
         }
         else
         {
-            return FST_X[S, E].action;
+            return FST_X[E, S].action;
         }
     }
 

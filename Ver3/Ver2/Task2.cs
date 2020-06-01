@@ -1,19 +1,28 @@
-﻿using System;
+﻿// Task No.:    2
+// Author:      Charlene Lo     - clo261    - 465948311
+//              Carl Velasco    - cvel317   - 6693979
+// Group No.:   29
+// Description: This class implements the creation of the Finite State Machine
+//              (FSM) detailed in task 2 of the assignment. It contains the
+//              functions that display the actions onto the user's console.
+
+
+using System;
 using System.Collections.Generic;
 using System.Threading;
 
 public class Task2
 {
     //define the indexes of the states and the events
-    private const int S0 = 0;
-    private const int S1 = 1;
-    private const int S2 = 2;
-    private const int E0 = 0;
-    private const int E1 = 1;
-    private const int E2 = 2;
+    public const int S0 = 0;
+    public const int S1 = 1;
+    public const int S2 = 2;
+    public const int E0 = 0;
+    public const int E1 = 1;
+    public const int E2 = 2;
 
     //initialise log
-    List<string> actionLog = new List<string>();
+    static List<string> actionLog = new List<string>();
 
     /// <summary>
     /// performs action w and logs it

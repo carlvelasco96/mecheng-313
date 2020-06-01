@@ -24,3 +24,16 @@ C:\Users\Charlene\Documents\GitHub\mecheng-313\Ver2\Ver2\obj\Debug\netcoreapp3.1
 C:\Users\Charlene\Documents\GitHub\mecheng-313\Ver2\Ver2\obj\Debug\netcoreapp3.1\Ver2.dll
 C:\Users\Charlene\Documents\GitHub\mecheng-313\Ver2\Ver2\obj\Debug\netcoreapp3.1\Ver2.pdb
 C:\Users\Charlene\Documents\GitHub\mecheng-313\Ver2\Ver2\obj\Debug\netcoreapp3.1\Ver2.genruntimeconfig.cache
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver2\Ver2\bin\Debug\netcoreapp3.1\Ver2.exe
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver2\Ver2\bin\Debug\netcoreapp3.1\Ver2.deps.json
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver2\Ver2\bin\Debug\netcoreapp3.1\Ver2.runtimeconfig.json
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver2\Ver2\bin\Debug\netcoreapp3.1\Ver2.runtimeconfig.dev.json
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver2\Ver2\bin\Debug\netcoreapp3.1\Ver2.dll
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver2\Ver2\bin\Debug\netcoreapp3.1\Ver2.pdb
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver2\Ver2\obj\Debug\netcoreapp3.1\Ver2.csprojAssemblyReference.cache
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver2\Ver2\obj\Debug\netcoreapp3.1\Ver2.csproj.CoreCompileInputs.cache
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver2\Ver2\obj\Debug\netcoreapp3.1\Ver2.AssemblyInfoInputs.cache
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver2\Ver2\obj\Debug\netcoreapp3.1\Ver2.AssemblyInfo.cs
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver2\Ver2\obj\Debug\netcoreapp3.1\Ver2.dll
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver2\Ver2\obj\Debug\netcoreapp3.1\Ver2.pdb
+D:\Users\Carl Velasco\Documents\GitHub\mecheng-313\Ver2\Ver2\obj\Debug\netcoreapp3.1\Ver2.genruntimeconfig.cache
