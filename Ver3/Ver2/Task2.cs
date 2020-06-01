@@ -13,7 +13,7 @@ public class Task2
     private const int E2 = 2;
 
     //initialise log
-    static List<string> actionLog = new List<string>();
+    List<string> actionLog = new List<string>();
 
     /// <summary>
     /// performs action w and logs it
@@ -225,7 +225,7 @@ public class Task2
                     }
                     catch
                     {
-                        Console.WriteLine("Something went wrong, please try again");
+                        Console.WriteLine("File path not recognised, please try again");
                     }
                 }
                 
