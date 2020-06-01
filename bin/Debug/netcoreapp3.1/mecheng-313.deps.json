@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "mecheng-313/1.0.0": {
+        "runtime": {
+          "mecheng-313.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "mecheng-313/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
